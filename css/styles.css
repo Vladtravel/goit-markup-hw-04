@@ -103,6 +103,7 @@ ul {
   margin-left: 331px;
   padding: 0;
 }
+
 .contacts-nav .link {
   font-family: Roboto;
   font-style: normal;
@@ -122,6 +123,16 @@ ul {
 /* Секция Герой */
 .section-hero {
   background-color: var(--bg-color-black);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Imghero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -212,6 +223,31 @@ ul {
 .link-list:not(:last-child) {
   margin-right: 30px;
 }
+.box {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.link-list:nth-child(1) .box {
+  background-image: url(../images/v1.svg);
+}
+.link-list:nth-child(2) .box {
+  background-image: url(../images/v2.svg);
+}
+.link-list:nth-child(3) .box {
+  background-image: url(../images/v3.svg);
+}
+.link-list:nth-child(4) .box {
+  background-image: url(../images/v4.svg);
+}
+
 .section-second .title {
   font-family: Roboto;
   font-style: normal;
