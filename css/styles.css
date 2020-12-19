@@ -99,7 +99,6 @@ ul {
 }
 .contacts-nav {
   display: flex;
-
   margin-left: 331px;
   padding: 0;
 }
@@ -292,6 +291,7 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
+  height: 428px;
 }
 .section-third .title {
   font-family: Roboto;
@@ -327,7 +327,84 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+}
+.social-networks {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.svg-networks {
+  fill: #afb1b8;
+}
+.svg-networks:hover {
+  fill: var(--text-color-white);
+}
+.network-list:hover {
+  background-color: var(--bg-color-blue);
+  fill: white;
+}
+.network-list {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.section-four {
+  background: #e5e5e5;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.title-clients {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.client {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.client:hover {
+  border-color: var(--text-color-blue);
+}
+.client-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.svg {
+  fill: #afb1b8;
+}
+.svg:hover {
+  fill: var(--text-color-blue);
 }
 
 /* Футер */
