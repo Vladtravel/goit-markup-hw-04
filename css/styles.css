@@ -185,6 +185,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 .section-hero .hero-title {
   width: 696px;
@@ -377,46 +378,7 @@ ul {
   margin-top: 0;
   margin-bottom: 16px;
 }
-.social-networks {
-  display: flex;
-  width: 206px;
-  height: 44px;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 0;
 
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.svg-networks:focus {
-  fill: var(--text-color-white);
-}
-.network-list:hover {
-  background-color: var(--bg-color-blue);
-  fill: white;
-}
-.network-list:focus {
-  background-color: var(--bg-color-blue);
-  fill: white;
-}
-
-.network-list {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
-}
-.social {
-  display: block;
-  width: 44px;
-  height: 44px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
 .section-four {
   background-color: var(--bg-color-white);
   padding-top: 94px;
@@ -512,6 +474,9 @@ ul {
 .main-footer {
   display: flex;
 }
+.footer-first {
+  margin-right: 70px;
+}
 .title-footer {
   color: var(--text-color-white);
   margin-bottom: 20px;
@@ -523,19 +488,62 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-first {
-  margin-right: 70px;
+.social-networks {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.networks {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: white;
+}
+.networks:hover {
+  background-color: var(--bg-color-blue);
+  fill: white;
+}
+.networks:focus {
+  background-color: var(--bg-color-blue);
+  fill: white;
+}
+.svg-networks:focus {
+  fill: var(--text-color-white);
+}
+.network-list:hover {
+  background-color: var(--bg-color-blue);
+  fill: white;
+}
+.network-list:focus {
+  background-color: var(--bg-color-blue);
+  fill: white;
+}
+.network-list {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
+.social {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 /* Портфолио */
-.section-futures .link {
-  color: var(--secondary-text-color);
-}
-.section-futures .link:hover {
-  color: var(--text-color-blue);
-}
-.section-futures .link:focus {
-  color: var(--text-color-blue);
-}
 
 .button-link .button {
   font-family: Roboto;
